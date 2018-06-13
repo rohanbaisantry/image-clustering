@@ -10,8 +10,7 @@ Change the following two variables(present in the main() function) for your conv
 
 Python Modules used:
 
--Keras.io
-
+-Keras.io  
 -tensorflow(as backend for keras)
 -os
 -time
