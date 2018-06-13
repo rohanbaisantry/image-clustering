@@ -1,4 +1,4 @@
-# image-clustering
+# Image-Clustering using KMeans
 
 ### This is a simple unsupervised image clustering algorithm which uses KMeans for clustering and Keras applications with weights pre-trained on ImageNet for vectorization of the images.
 
