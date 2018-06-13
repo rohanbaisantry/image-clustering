@@ -4,7 +4,7 @@ This is a simple image clustering algorithm which uses KMeans for clustering and
 
 output folder will be created and the different clusters formed using he different algorithms will be present. 
 
-changge the following variables for your convinience:
+change the following variables(present in the main() function) for your convinience:
 1) number_of_clusters  
 2) data_path - this is the path of the folder that contans the different images that we will pass to the algorithm.
 
