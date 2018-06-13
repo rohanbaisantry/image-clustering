@@ -32,4 +32,4 @@ step 1: Set the different parameters for the model. (The Variables mentioned abo
 step 2: Initialize an object of the class "image_clustering" with the parameters set in the previous step.  
 step 3: Call the class's load_data() function.  
 step 4: Call the class's get_new_imagevector() function.  
-step 5: call the clustering() function.
+step 5: Call the clustering() function.
