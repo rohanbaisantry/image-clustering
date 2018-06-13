@@ -12,7 +12,9 @@ Change the following variables(present in the main() function) as per your convi
 4) use_imagenets - choose which keras application to use. (Choose from: "Xception", "VGG16", "VGG19", "ResNet50", "InceptionV3", "InceptionResNetV2", "DenseNet", "MobileNetV2" and "False". If False, the image will be passed as is to the clustering algorithm)
 5) use_pca - choose whether to use PCA for dimentionality reduction. (choose betwwen between "True" and "False". If use_imagenets=False, then use_pca will automatically be set to False as well) 
 
-
+  
+  
+  
 Python Modules used:
 
 -Keras 
