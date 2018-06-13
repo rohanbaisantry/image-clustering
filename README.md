@@ -6,7 +6,7 @@ A folder named "output" will be created and the different clusters formed using 
 
 Change the following two variables(present in the main() function) for your convinience:
 1) number_of_clusters  ( default is 10 )
-2) data_path - This is the path of the folder that contans the different images that we will pass to the algorithm.
+2) data_path - This is the path of the folder that contans the different images that you want to pass to the algorithm.
 
 Python Modules used:
 
