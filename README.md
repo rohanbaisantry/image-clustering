@@ -8,8 +8,10 @@ Change the following two variables(present in the main() function) for your conv
 1) number_of_clusters  
 2) data_path - This is the path of the folder that contans the different images that we will pass to the algorithm.
 
-Python Modules used: 
+Python Modules used:
+
 -Keras.io
+
 -tensorflow(as backend for keras)
 -os
 -time
