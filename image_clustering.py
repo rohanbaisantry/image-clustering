@@ -4,7 +4,7 @@ import random, cv2, os, sys, shutil
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 import numpy as np
-#import keras
+import keras
 
 class image_clustering:
 
