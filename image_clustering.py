@@ -4,17 +4,20 @@ import random, cv2, os, sys, shutil
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 import numpy as np
-import keras
+#import keras
 
 class image_clustering:
 
 	def __init__(self, folder_path="data", n_clusters=10, max_examples=None, use_imagenets=False, use_pca=False):
-		if max_examples == None:
-			self.max_examples = len(os.listdir(folder_path))
-		else:
-			self.max_examples = max_examples
-		self.n_clusters = n_clusters
 		paths = os.listdir(folder_path)
+		if max_examples == None:
+			self.max_examples = len(paths)
+		else:
+			if max_examples > len(paths):
+				self.max_examples = len(paths)
+			else:
+				self.max_examples = max_examples
+		self.n_clusters = n_clusters
 		self.folder_path = folder_path
 		random.shuffle(paths)
 		self.image_paths = paths[:self.max_examples]
