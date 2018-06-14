@@ -88,11 +88,12 @@ if __name__ == "__main__":
 
 	print("\n\n \t\t START\n\n")
 
-	number_of_clusters = 5 # cluster names will be 0 to number_of_clusters-1
+	number_of_clusters = 10 # cluster names will be 0 to number_of_clusters-1
 
 	data_path = "data" # path of the folder that contains the images to be considered for the clustering (The folder must contain only image files)
 
 	max_examples = 500 # number of examples to use, if "None" all of the images will be taken into consideration for the clustering
+	# If the value is greater than the number of images present  in the "data_path" folder, it will use all the images and change the value of this variable to the number of images available in the "data_path" folder. 
 
 	use_imagenets = False
 	# choose from: "Xception", "VGG16", "VGG19", "ResNet50", "InceptionV3", "InceptionResNetV2", "DenseNet", "MobileNetV2" and "False" -> Default is: False
